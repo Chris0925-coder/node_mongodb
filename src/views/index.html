@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+</head>
+<body>
+
+    <form action="/storage" method="post" enctype="multipart/form-data">
+        <input type="file" name="myfile" id="img">
+        <input type="submit" value="UPLOAD">
+    </form>
+    
+    <div>
+        <article><%=data%></article>
+        <article><%=photo%></article>
+        <article>
+            <img src="../../storage/file-1695604684816.jpg" width="100" height="100">
+        </article>
+        <article name="p"></article>
+    </div>
+
+</body>
+</html>
